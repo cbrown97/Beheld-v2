@@ -1,0 +1,268 @@
+/*
+GLOBAL - STRAT
+*/
+
+body {
+	padding-top: 45px;
+	padding-left: 3px;
+	padding-right: 3px;
+}
+
+.alert {
+	margin-top: 35px;
+	margin-bottom: 0px;
+}
+.page-header {
+	margin-left: 5px;
+}
+
+img.review-img {
+	width: 100%;
+	max-width: 600px;
+	max-height: 600px;
+	overflow: hidden;
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid black;
+}
+
+img.about-profile-img {
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	max-height: 350px;
+	max-width: 300px;
+}
+
+.search-img {
+	max-height: 150px;
+	max-width: 150px;
+}
+
+#menu-bar ul li a.signup-btn {
+		color: white;
+	}
+	
+a.follow-btn {
+	max-width: 260px;
+}
+
+a.artist-sl {
+	margin-left: 10px;
+	text-decoration: none;
+	color: #060682;
+}
+
+a.artist-sl:hover {
+	color: #a7a7a7;
+}
+
+img.artist-img {
+	max-height: 300px;
+	max-width: 300px;
+}
+
+#accordian2 {
+	margin-top: 100px;
+}
+.bio-btn {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.category-btn {
+	margin-left: 5px;
+	margin-bottom: 15px;
+	margin-top: 5px;
+}
+
+.thumb-img-artist {
+	max-width: 150px;
+	max-height: 150px;
+	padding-left: 5px;
+}
+
+div.carousel-inner {
+	border: 1px solid black;
+}
+
+div.carousel-des {
+	padding-left: 5px;
+	padding-right: 5px;
+}
+	
+.buy-btn,
+.share-btn {
+	max-width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: large;
+}
+
+ul.navbar-header {
+	margin-top: 15px;
+}
+
+button.navbar-toggle {
+	margin-top: 5px;
+}
+
+#navigation {
+	height: 40px;
+}
+
+#menu-bar ul li a.btn-block:hover {
+		background-color: black;
+	}
+	
+div.buyer-col,
+div.artist-col {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 500px;
+}
+/*
+GLOBAL - END
+*/
+/*
+MASONARY - START
+*/
+.box {
+    margin: 5px;
+    padding: 5px;
+    font-size: 11px;
+    line-height: 1.4em;
+    float: left;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px #444;
+    width: 285px;
+}
+
+.box img {
+    width: 100%;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.description {
+    margin: 10px 0 5px;
+}
+/*
+MASONARY - END
+*/
+
+/*
+MENU BUTTONS - START
+*/
+
+a.btn-block {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+/*
+CAROUSEL - START
+*/
+.carousel {
+	max-width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+img.carousel-img {
+	width: 100%;
+	max-width: 600px;
+	max-height: 600px;
+	overflow: hidden;
+	margin-left: auto;
+	margin-right: auto;
+}
+/*
+CAROUSEL - END
+*/
+/*
+BANNER - START
+*/
+img.banner-img {
+	width: 100%;
+	margin-top: 10px;
+}
+
+div.banner-text {
+	margin-top: -150px;
+	margin-left: 20px;
+}
+
+h1.banner-header {
+	color: white;
+	text-shadow: 0px 0px 100px black;
+}
+
+p.banner-cta {
+	color: white;
+	text-shadow: 0px 0px 100px black;
+}
+/*
+BANNER - END
+*/
+/*
+FOOTER - START
+*/
+div.footer {
+	margin-top: 60px;
+}
+
+div.footer ul {
+	margin-top: 15px;
+}
+
+a.social-link1 {
+	text-decoration: none;
+	margin-left: 0px;
+	color: white;
+}
+
+a.social-link1:hover {
+	color: grey;
+}
+a.social-link {
+	text-decoration: none;
+	margin-left: 10px;
+	color: white;
+}
+
+a.social-link:hover {
+	color: grey;
+}
+
+p.copyright {
+	color: white;
+	margin-right: 15px;
+}
+
+
+/*
+FOOTER - END
+*/
+
+.simple_form label {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+
+@media (max-width: 768px) {
+	a.btn-block {
+		font-size: large;
+		padding: 10px 10px;
+		margin-bottom: 5px;
+		
+	}
+	#menu-bar {
+		margin-top: -20px;
+	}
+}

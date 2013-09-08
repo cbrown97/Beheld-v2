@@ -1,14 +1,34 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" class="no-js">
 <head>
-  <title>BeheldV2</title>
-  <%= stylesheet_link_tag    "application", :media => "all" %>
-  <%= javascript_include_tag "application" %>
-  <%= csrf_meta_tags %>
+  <title>Beheld - Online Art Gallery | Tool for Artists</title>
+  	<%= stylesheet_link_tag    "application", :media => "all" %>
+  	<%= javascript_include_tag "application" %>
+  	<%= csrf_meta_tags %>
+	  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	  	<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+		<meta name="description" content="Beheld is a community of Artists, Galleries and Buyers." />		
+		<meta name="keywords" content="Art | Original Art | Artists | Business Tool | Gallery | Galleries" />
 </head>
-<body>
+<body class="container">
 
-<%= yield %>
+	<%= render 'layouts/header' %>
+			<% flash.each do |name, msg| %>
+				<%= content_tag(:div, msg, class: "alert alert-#{name}") %>
+			<% end %>
 
+			<%= yield %>
+			
+	<%= render 'layouts/footer' %>
+
+	<script src="../../assets/javascripts/jquery.js"></script>
+	<script src="../../assets/javascripts/bootstrap.js"></script>
+	<script>
+		$(document).ready(function(){
+			$('.carousel').carousel()
+		});
+	</script>
+</div>
 </body>
 </html>
