@@ -1,0 +1,75 @@
+<div id="bl-main" class="bl-main">
+<!-- About -->
+		<section>
+				<div class="bl-box">
+						<h2 class="bl-icon bl-icon-about">About</h2>
+				</div>
+				<div class="bl-content">
+						<%= render 'pages/about' %>		
+						<span class="bl-icon bl-icon-close"></span>
+		</section>
+<!-- Search -->		
+		<section id="bl-work-section">
+				<div class="bl-box">
+						<h2 class="bl-icon bl-icon-works">Search</h2>
+				</div>
+				<div class="bl-content">
+						<%= render 'pages/search' %>						
+						<span class="bl-icon bl-icon-close"></span>
+		</section>
+<!-- Blog -->		
+		<section>
+			<a>
+				<div class="bl-box">
+						<h2 class="bl-icon bl-icon-blog">Blog</h2>
+				</div>
+			</a>
+		</section>
+<!-- Learning -->
+		<section>
+				<div class="bl-box">
+						<h2 class="bl-icon bl-icon-contact">Learning</h2>
+				</div>
+				<div class="bl-content">
+						<h2>Learning Center</h2>
+						<p>Coming Soon...</p>
+				</div>
+				<span class="bl-icon bl-icon-close"></span>
+		</section>
+<% if user_signed_in? %>
+<!-- Profile -->		
+		<section>
+				<!-- need code to link to the appropriate profile -->
+				<a>
+						<div class="bl-box">
+								<h2 class="bl-icon bl-icon-contact">Login</h2>
+						</div>
+				</a>
+		</section>
+<!-- Logout -->
+		<section>
+				<a>
+						<div class="bl-box">
+								<h2 class="bl-icon bl-icon-contact">Login</h2>
+						</div>
+				</a>
+		</section>
+<% else %>
+<!-- Sign Up -->		
+		<section>
+				<div class="bl-box">
+						<h2 class="bl-icon bl-icon-contact">Sign Up</h2>
+				</div>
+				<div class="bl-content">
+						<%= render 'pages/selection' %>
+						<span class="bl-icon bl-icon-close"></span>
+		</section>
+<!-- Login -->
+		<section>
+				<a>
+						<div class="bl-box">
+								<h2 class="bl-icon bl-icon-contact">Login</h2>
+						</div>
+				</a>
+		</section>
+<% end %>

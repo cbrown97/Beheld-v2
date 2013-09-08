@@ -124,34 +124,47 @@ div.artist-col {
 /*
 GLOBAL - END
 */
+
 /*
-MASONARY - START
+MENU PAGE - START
 */
-.box {
-    margin: 5px;
-    padding: 5px;
-    font-size: 11px;
-    line-height: 1.4em;
-    float: left;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    border-radius: 5px;
-    box-shadow: 1px 1px 10px #444;
-    width: 285px;
+.bl-main > section {
+position: absolute;
+width: 32%;
+height: 48%;
 }
-
-.box img {
-    width: 100%;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    border-radius: 5px;
+.bl-main > section:first-child {
+top: 0;
+left: 0;
+background: #F06060;
 }
-
-.description {
-    margin: 10px 0 5px;
+.bl-main > section:nth-child(2) {
+top: 0;
+left: 33%;
+background: #FA987D;
+}
+.bl-main > section:nth-child(3) {
+top: 0%;
+left:66%;
+background: #72CCA7;
+}
+.bl-main > section:nth-child(4){
+top: 50%;
+left: 0;
+background: #F06060;
+}
+.bl-main > section:nth-child(5) {
+top: 50%;
+left: 33%;
+background: #FA987D;
+}
+.bl-main > section:nth-child(6) {
+top: 50%;
+left:66%;
+background: #72CCA7;
 }
 /*
-MASONARY - END
+MENU PAGE - END
 */
 
 /*
